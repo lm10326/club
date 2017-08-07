@@ -13,7 +13,7 @@ def choose(browser): #选择浏览器
         driver=webdriver.Opera()
     return driver
 
-def start(driver,url='http://192.168.60.167:8080/SPPS/powerCurve/shortAction.action'): #启动浏览器
+def start(driver,url='http://192.168.60.36:8080/SPPS/powerCurve/shortAction.action'): #启动浏览器
     print(time.time)
     driver.get(url)
     driver.find_element_by_id('loginName').send_keys('admin')
