@@ -1,0 +1,41 @@
+实时状态监控                                                                                         
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]  实时状态监控 > 实时功率曲线                 下拉框1    复选框3  按钮1
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]  实时状态监控 > 实时气象曲线				 下拉框1    复选框3  按钮1 
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]  场内实时气象监控 > 场内气象监控             下拉框4    复选框7  
+/html/body/div/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[1]     实时状态监控 > 实时上报监控
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]  实时状态监控 > 理论功率曲线                 下拉框1    复选框4  按钮1  日历1
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]  实时状态监控 > 发电量曲线                   下拉框1    复选框3  按钮1  日历1
+
+
+功率曲线展示
+/html/body/div[1]/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]  功率曲线展示 > 预测曲线 > 短期预测曲线    下拉框1    按钮1  日历2
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]     功率曲线展示 > 预测曲线 > 超短期预测曲线  下拉框1    按钮1
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]     功率曲线展示 > 上报曲线(短期上报曲线)     下拉框1    复选框5  按钮1  日历2
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]     功率曲线展示 > 历史曲线                   下拉框1    复选框3  按钮1  日历2
+
+
+气象信息展示
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]     气象信息展示 > 云量曲线                    下拉框3    复选框2  按钮1  日历2
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]     气象信息展示 > 温度曲线                    下拉框3    复选框3  按钮1  日历2
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]     气象信息展示 > 风速曲线                    下拉框3    复选框2  按钮1  日历2
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]     气象信息展示 > 湿度曲线                    下拉框3    复选框2  按钮1  日历2
+
+
+统计报表
+/html/body/div[1]/div[2]/div[2]/div[2]/div/div[2]/table/tbody/tr[1]/td/table/tbody/tr   统计报表 > 统计信息 > 短期预测指标统计
+/html/body/div[1]/div[2]/div[2]/div/div[3]/div/div[2]/table/tbody/tr[1]                 分析统计 > 统计信息 > 超短期预测指标统计
+/html/body/div[1]/div[2]/div[2]/div/div[3]/div[1]/div[2]/table/tbody/tr/td/table/tbody/tr[1]  分析统计 > 统计信息 > 实际功率相关指标统计>功率频率分布统计
+/html/body/div[1]/div[2]/div[2]/div/div[3]/div[2]/div[2]/table/tbody/tr/td/table/tbody/tr[1]  分析统计 > 统计信息 > 实际功率相关指标统计>功率波动分布统计
+
+/html/body/div/div[2]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[1]    统计报表 > 报表信息 > 功率报表             下拉框3    按钮1  日历1
+/html/body/div/div[2]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[1]    统计报表 > 报表信息 > 气象报表             下拉框3    按钮2  日历2
+/html/body/div/div[2]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[1]    系统管理 > 系统管理 > 理论功率监控         下拉框1    按钮1  日历2
+
+
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1] #第一行
+
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr #行数
+
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[1] #第一列
+
+/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[1]/td #列数
