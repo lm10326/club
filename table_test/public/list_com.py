@@ -1,8 +1,7 @@
 #coding=utf-8
-#比较列表长度并指出哪个列表更长
 list1=['你好',23,'ddd',2322]
 list2=['你好',3,'dd2d']
-def comh(list1,list2):
+def comh(list1,list2): #比较两个列表，并指出哪个元素不同
     list=[]
     if len(list1)<len(list2):
         print("第二个列表比第一个列表长")

@@ -2,6 +2,7 @@
 from selenium import webdriver
 import time
 import datetime
+'''获取横向最终表和竖向最终表'''
 start=datetime.datetime.now()  #开始时间
 driver=webdriver.Firefox()
 driver.get('http://192.168.60.167:8080/SPPS/powerCurve/shortAction.action')
