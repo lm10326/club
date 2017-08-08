@@ -1,5 +1,4 @@
 #coding=utf-8
-
 # from dictlist import get_list
 # def pr_list(a,list):
 #     for i in list:
@@ -9,7 +8,7 @@
 # pr_list(4,list_get)
 
 
-list3=[['2e',22,5,2],[6,24,68,6]] #获取二维数组某一元素的行列
+list3=[['2e',22,5,2],[6,24,68,6]] #获取二维数组某一元素所在的行列
 # for i in list3:
 #     for k in i:
 #         if k==2:

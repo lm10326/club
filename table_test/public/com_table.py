@@ -7,7 +7,7 @@ start=datetime.datetime.now()  #开始时间
 driver=webdriver.Firefox()
 driver.get('http://192.168.60.167:8080/SPPS/powerCurve/shortAction.action')
 driver.find_element_by_id('loginName').send_keys('admin')
-driver.find_element_by_id('password').send_keys('aaaaaa')
+driver.find_element_by_id('password').send_keys('123456')
 login=driver.find_element_by_xpath('//input[@type="submit"]').click()
 click_list=['功率曲线展示','历史曲线']
 # click_list=['功率曲线展示','预测曲线','短期预测曲线']

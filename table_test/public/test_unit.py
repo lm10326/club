@@ -1,18 +1,19 @@
 #coding=utf-8
-from selenium import webdriver
-import start
+from setpath import getpath
+getpath()
+from club.table_test.public.start import start,choose
+# from .start import start,choose
 import unittest
 import time
-from get_col import get_col
-from get_col import deltup
+from club.table_test.public.get_col import get_col,deltup
 '''聚合打开浏览器和选择浏览器'''
 starttime=time.time()
 class MyTestCase(unittest.TestCase):
     def setUp(self):
-        self.driver = start.choose('firefox')
+        self.driver = choose('firefox')
     def test_something(self):
         driver=self.driver
-        start.start(driver)
+        start(driver)
         click_list = ['功率曲线展示', '历史曲线']
         # click_list=['功率曲线展示','预测曲线','短期预测曲线']
         for i in click_list:

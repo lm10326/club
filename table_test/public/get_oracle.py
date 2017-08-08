@@ -1,6 +1,5 @@
 #coding=utf-8
 import cx_Oracle
-import operator
 def get_oracle_h(host,sql,n): #查询oracle数据库多列，返回由列表组成的列表，列表元素为查询的几列
     username="gf_spps_dr"
     userpwd="gf_spps_dr"
