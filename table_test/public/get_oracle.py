@@ -14,7 +14,7 @@ def get_oracle_h(host,sql,n): #查询oracle数据库多列，返回由列表组�
 #     print(sql)
     cursor.execute(sql)
     result = cursor.fetchall() #结果为元组组成的列表
-    print("原始",result) #显示原始列表
+    # print("原始",result) #显示原始列表
 #     print('\n')
     list_s=[]
     for i in result:
@@ -29,7 +29,7 @@ def get_oracle_h(host,sql,n): #查询oracle数据库多列，返回由列表组�
                     i[i.index(k)]=round(float(k),n)
                 except:
                     pass   
-        print("行组成的列表:",list_s)
+        # print("行组成的列表:",list_s)
     else:
         print("查询结果为空")
         list_s=count
@@ -70,7 +70,7 @@ def get_oracle_one(host,sql,n): #查询oracle数据库一列，返回列表，�
                 list_s[list_s.index(i)]=round(float(i),n)
             except:
                 pass
-        print("保留两位小数",list_s)
+        # print("保留两位小数",list_s)
         for i in list_s:
             try:
                 if isinstance(i,datetime.timedelta):
@@ -142,8 +142,8 @@ def get_oracle_l(host,sql,n): #查询oracle数据库多列，返回由列表组�
         list_z=count
     cursor.close()
     return list_z
-
-get_oracle_l('192.168.60.36', "select GET_DATE,GET_TIME,ARI_TEM,TOTAL_IRRAD FROM GF_SPPS_NWP_DEAL where rownum<=2", 2)
-get_oracle_h('192.168.60.36', "select GET_DATE,GET_TIME,ARI_TEM,TOTAL_IRRAD FROM GF_SPPS_NWP_DEAL where rownum<=2", 2)
+if __name__ == '__main__':
+    get_oracle_l('192.168.60.36', "select GET_DATE,GET_TIME,ARI_TEM,TOTAL_IRRAD FROM GF_SPPS_NWP_DEAL where rownum<=2", 2)
+    get_oracle_h('192.168.60.36', "select GET_DATE,GET_TIME,ARI_TEM,TOTAL_IRRAD FROM GF_SPPS_NWP_DEAL where rownum<=2", 2)
 # get_oracle_one('192.168.60.36', "select GET_DATE FROM GF_SPPS_NWP_DEAL where rownum<=2", 2)
 # print(operator.eq(m,m))
