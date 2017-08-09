@@ -29,7 +29,7 @@ class MyTestCase(unittest.TestCase):
         FROM GF_SPPS_NWP_DEAL a WHERE PRE_DATE='2017-08-08' ORDER BY PRE_TIME asc", 2)#查询数据库
         print(list_wen)
         print(list_sql)
-        list_wen.pop()
+        # list_wen.pop()
         self.assertEqual(list_wen,list_sql)
     def tearDown(self):
         self.driver.close()
