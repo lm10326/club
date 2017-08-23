@@ -7,7 +7,7 @@ testcasedir='testcase' #测试用例目录名
 def creatsuitel():
     testunit=unittest.TestSuite()
     #discover 方法定义
-    discover=unittest.defaultTestLoader.discover(testcasedir,pattern ='gf_*.py',top_level_dir=None)
+    discover=unittest.defaultTestLoader.discover(testcasedir,pattern ='bak_*.py',top_level_dir=None)
     #discover 方法筛选出来的用例，循环添加到测试套件中
     for test_suite in discover:
         for test_case in test_suite:
@@ -20,7 +20,8 @@ if __name__ == '__main__':
     alltestnames = creatsuitel()
     #定义个报告存放路径，支持相对路径
     nowtime = time.strftime("%Y%m%d%H%M%S", time.localtime())
-    filename = "E:\\ch_workspace\\club\\report\\result"+ nowtime +".html"
+    # filename = "E:\\ch_workspace\\club\\report\\result"+ nowtime +".html"
+    filename = "E:\\ch_workspace\\club\\report\\result"  + ".html"
     fp = open(filename, 'wb')
     #定义测试报告
     runner =HTMLTestRunner.HTMLTestRunner(
