@@ -41,7 +41,7 @@ class MyTestCase(unittest.TestCase):
         #                     "GF_SPPS_MINUTE_THEORY"}
         # print("原始oracle表为:", oracle_talbe_old)
         # coding=utf-8
-        oracle_talbe_new = ["SPPS_UPLOAD_STATE",
+        oracle_talbe_new = {"SPPS_UPLOAD_STATE",
 "SPPS_PTC_STATISTICS_DAY",
 "SPPS_PTC_PANELS_INFO",
 "SPPS_PTC_FLIMITH_SET",
@@ -97,9 +97,9 @@ class MyTestCase(unittest.TestCase):
 "GF_SPPS_MONITOR_LOG",
 "GF_SPPS_MINUTE_THEORY_BAK",
 "GF_SPPS_MINUTE_THEORY",
-"GF_SPPS_COLLECTION_DATA"]
-        oracle_talbe_new.sort()
-        mysql_table=["GF_SPPS_COLLECTION_DATA",
+"GF_SPPS_COLLECTION_DATA"}
+        # oracle_talbe_new.sort()
+        mysql_table={"GF_SPPS_COLLECTION_DATA",
 "SPPS_UPLOAD_STATE",
 "SPPS_PTC_STATISTICS_DAY",
 "SPPS_PTC_PANELS_INFO",
@@ -154,9 +154,9 @@ class MyTestCase(unittest.TestCase):
 "GF_SPPS_NWP_DEAL_BAK",
 "GF_SPPS_NWP_DEAL",
 "GF_SPPS_MONITOR_LOG",
-"GF_SPPS_MINUTE_THEORY_BAK2",
-"GF_SPPS_MINUTE_THEORY1"]
-        mysql_table.sort()
+"GF_SPPS_MINUTE_THEORY_BAK",
+"GF_SPPS_MINUTE_THEORY"}
+        # mysql_table.sort()
         # print("新oracle表为:", oracle_talbe_new)
         # print("新mysqle表为:",mysql_table)
         print('\n')

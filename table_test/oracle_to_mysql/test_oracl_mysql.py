@@ -1,6 +1,7 @@
 import unittest
 from club.table_test.oracle_to_mysql.get_mysql import get_mysql_h
 from club.table_test.oracle_to_mysql.get_oracle import get_oracle_h
+from club.table_test.oracle_to_mysql.get_col import deltup
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         table_list = ["GF_SPPS_COLLECTION_DATA",
@@ -68,12 +69,14 @@ class MyTestCase(unittest.TestCase):
             print(str(table_list.index(table_name))+" oracle查询",sql)
             list_oracle=get_oracle_h("192.168.60.36", sql, 10)
             # print("mysql查询",sql)
-            list_mysql=get_mysql_h("192.168.60.36",sql,10)
+            list_mysql1=get_mysql_h("192.168.60.36",sql,10)
+            list_mysql=deltup(list_mysql1,None)
             try:
                 self.assertEqual(list_mysql,list_oracle)
             except Exception as e:
+                list_result.append(table_name + ''' is not equal''')
                 print(e)
-                list_result.append(table_name+''' is not equal''')
+        print(list_result)
         self.assertEqual(list_result,[])
 if __name__ == '__main__':
     unittest.main()
