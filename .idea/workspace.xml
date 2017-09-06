@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c29b9b1-626d-435b-a776-f27944a09e86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/table_test/public/conf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/table_test/public/gf_liuchen.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/table_test/public/jidianxian.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/table_test/mytest/teee.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_test/old/zhuanzhi.py" afterPath="$PROJECT_DIR$/table_test/old/zhuanzhi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_test/public/com_table.py" afterPath="$PROJECT_DIR$/table_test/public/com_table.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_test/public/get_col.py" afterPath="$PROJECT_DIR$/table_test/public/get_col.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_test/public/get_mysql.py" afterPath="$PROJECT_DIR$/table_test/public/get_mysql.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_test/public/menu.py" afterPath="$PROJECT_DIR$/table_test/public/menu.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table_test/public/start.py" afterPath="$PROJECT_DIR$/table_test/public/start.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testcase/gf_sszt_ssgl.py" afterPath="$PROJECT_DIR$/testcase/gf_sszt_ssgl.py" />
     </list>
     <ignored path="ch_workspace.iws" />
@@ -64,12 +57,13 @@
     <SUITE FILE_PATH="coverage/ch_workspace$common.coverage" NAME="common Coverage Results" MODIFIED="1500271919350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/public" />
     <SUITE FILE_PATH="coverage/ch_workspace$arg_list.coverage" NAME="arg_list Coverage Results" MODIFIED="1501725902770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/mytest" />
     <SUITE FILE_PATH="coverage/ch_workspace$.coverage" NAME="转置 Coverage Results" MODIFIED="1501726536668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/mytest" />
-    <SUITE FILE_PATH="coverage/club$get_col.coverage" NAME="get_col Coverage Results" MODIFIED="1504682286851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/public" />
+    <SUITE FILE_PATH="coverage/club$get_col.coverage" NAME="get_col Coverage Results" MODIFIED="1504686014234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/public" />
     <SUITE FILE_PATH="coverage/ch_workspace$Unittests_in_ch_workspace.coverage" NAME="Unittests in ch_workspace Coverage Results" MODIFIED="1501740985899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/club$get_heng.coverage" NAME="get_heng Coverage Results" MODIFIED="1502156303602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/public" />
     <SUITE FILE_PATH="coverage/club$hh.coverage" NAME="hh Coverage Results" MODIFIED="1502171062207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/ch_workspace$light_test.coverage" NAME="light_test Coverage Results" MODIFIED="1501726699681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/mytest" />
     <SUITE FILE_PATH="coverage/ch_workspace$Unittests_in_MyTestCase.coverage" NAME="Unittests in MyTestCase Coverage Results" MODIFIED="1500623087873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/public" />
+    <SUITE FILE_PATH="coverage/club$Unittests_in_teee.coverage" NAME="Unittests in teee Coverage Results" MODIFIED="1504687300513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/mytest" />
     <SUITE FILE_PATH="coverage/ch_workspace$dictlist__1_.coverage" NAME="dictlist (1) Coverage Results" MODIFIED="1500629107947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/public" />
     <SUITE FILE_PATH="coverage/ch_workspace$open_browser.coverage" NAME="open_browser Coverage Results" MODIFIED="1501751585173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/public" />
     <SUITE FILE_PATH="coverage/ch_workspace$list_test.coverage" NAME="list_test Coverage Results" MODIFIED="1500279927913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/mytest" />
@@ -78,7 +72,7 @@
     <SUITE FILE_PATH="coverage/club$setpath.coverage" NAME="setpath Coverage Results" MODIFIED="1502173056015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/club$mytest.coverage" NAME="mytest Coverage Results" MODIFIED="1503629756429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/ch_workspace$test_unit.coverage" NAME="test_unit Coverage Results" MODIFIED="1501725251027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/public" />
-    <SUITE FILE_PATH="coverage/club$Unittests_in_gf_sszt_ssgl.coverage" NAME="Unittests in gf_sszt_ssgl Coverage Results" MODIFIED="1504682810488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/club$Unittests_in_gf_sszt_ssgl.coverage" NAME="Unittests in gf_sszt_ssgl Coverage Results" MODIFIED="1504686409605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/club$xia_la.coverage" NAME="xia_la Coverage Results" MODIFIED="1503647890976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/table_test/public" />
     <SUITE FILE_PATH="coverage/club$Unittests_in_MyTestCase.coverage" NAME="Unittests in MyTestCase Coverage Results" MODIFIED="1504669766682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/club$Unittests_in_bak_test_un.coverage" NAME="Unittests in bak_test_un Coverage Results" MODIFIED="1503626696118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
@@ -121,8 +115,8 @@
       <file leaf-file-name="get_col.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/table_test/public/get_col.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="405">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -138,24 +132,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gf_sszt_ssgl.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gf_sszt_ssgl.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase/gf_sszt_ssgl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="648">
+              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
               <folding>
-                <marker date="1504678886250" expanded="true" signature="1203:1327" ph="SELECT a.PRE... GF_SPPS_NWP_DEAL" />
-                <marker date="1504678886250" expanded="true" signature="1386:1508" ph="SELECT a.PRE... GF_SPPS_NWP_DEAL" />
+                <marker date="1504686532304" expanded="true" signature="1241:1367" ph="SELECT a.PRE... GF_SPPS_NWP_DEAL" />
+                <marker date="1504686532304" expanded="true" signature="1827:1982" ph="SELECT a.COL... SPPS_FZYI_MON_HIS" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="start.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/table_test/public/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            <state relative-caret-position="540">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teee.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/table_test/mytest/teee.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -179,8 +183,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -196,7 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/table_test/mytest/__init__.py" />
         <option value="$PROJECT_DIR$/table_test/public/dictlist.py" />
         <option value="$PROJECT_DIR$/table_test/mytest/threadtest.py" />
         <option value="$PROJECT_DIR$/table_test/old/excel_test.py" />
@@ -244,9 +247,10 @@
         <option value="$PROJECT_DIR$/table_test/public/jidianxian.py" />
         <option value="$PROJECT_DIR$/table_test/public/gf_liuchen.py" />
         <option value="$PROJECT_DIR$/table_test/public/start.py" />
-        <option value="$PROJECT_DIR$/testcase/gf_sszt_ssgl.py" />
-        <option value="$PROJECT_DIR$/table_test/public/get_col.py" />
         <option value="$PROJECT_DIR$/table_test/public/get_mysql.py" />
+        <option value="$PROJECT_DIR$/table_test/public/get_col.py" />
+        <option value="$PROJECT_DIR$/testcase/gf_sszt_ssgl.py" />
+        <option value="$PROJECT_DIR$/table_test/mytest/teee.py" />
       </list>
     </option>
   </component>
@@ -409,6 +413,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="table_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="club" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch_workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="club" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="report" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -449,25 +475,7 @@
       <recent name="E:\ch_workspace" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in gf_sszt_ssgl">
-    <configuration default="false" name="del_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/table_test/public" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ch_workspace" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/table_test/public/del_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in teee">
     <configuration default="false" name="dd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -539,6 +547,29 @@
       <module name="ch_workspace" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/gf_sszt_ssgl.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in teee" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/table_test/mytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ch_workspace" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/table_test/mytest/teee.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -759,19 +790,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.del_file" />
-      <item index="1" class="java.lang.String" itemvalue="Python.dd" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in MyTestCase" />
-      <item index="3" class="java.lang.String" itemvalue="Python.get_col" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in gf_sszt_ssgl" />
+      <item index="0" class="java.lang.String" itemvalue="Python.dd" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in MyTestCase" />
+      <item index="2" class="java.lang.String" itemvalue="Python.get_col" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in gf_sszt_ssgl" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in teee" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in gf_sszt_ssgl" />
-        <item index="1" class="java.lang.String" itemvalue="Python.get_col" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in MyTestCase" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dd" />
-        <item index="4" class="java.lang.String" itemvalue="Python.del_file" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in teee" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in gf_sszt_ssgl" />
+        <item index="2" class="java.lang.String" itemvalue="Python.get_col" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in MyTestCase" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dd" />
       </list>
     </recent_temporary>
   </component>
@@ -831,39 +862,46 @@
       <option name="project" value="LOCAL" />
       <updated>1503627425459</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修改了删除某一定向元素的方法">
+      <created>1504683010093</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1504683010093</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_MyTestCase - 2017.09.06 at 11h 38m 29s.xml">
-      <configuration name="Unittests in MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_MyTestCase - 2017.09.06 at 11h 43m 23s.xml">
-      <configuration name="Unittests in MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_MyTestCase - 2017.09.06 at 11h 48m 16s.xml">
-      <configuration name="Unittests in MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_MyTestCase - 2017.09.06 at 11h 49m 51s.xml">
-      <configuration name="Unittests in MyTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_gf_sszt_ssgl - 2017.09.06 at 11h 55m 16s.xml">
+    <history-entry file="Unittests_in_gf_sszt_ssgl - 2017.09.06 at 16h 03m 47s.xml">
       <configuration name="Unittests in gf_sszt_ssgl" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_gf_sszt_ssgl - 2017.09.06 at 11h 55m 59s.xml">
+    <history-entry file="Unittests_in_gf_sszt_ssgl - 2017.09.06 at 16h 07m 21s.xml">
       <configuration name="Unittests in gf_sszt_ssgl" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_gf_sszt_ssgl - 2017.09.06 at 14h 17m 55s.xml">
+    <history-entry file="Unittests_in_gf_sszt_ssgl - 2017.09.06 at 16h 08m 58s.xml">
       <configuration name="Unittests in gf_sszt_ssgl" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_gf_sszt_ssgl - 2017.09.06 at 14h 20m 00s.xml">
+    <history-entry file="Unittests_in_gf_sszt_ssgl - 2017.09.06 at 16h 12m 35s.xml">
       <configuration name="Unittests in gf_sszt_ssgl" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_gf_sszt_ssgl - 2017.09.06 at 15h 24m 53s.xml">
+    <history-entry file="Unittests_in_gf_sszt_ssgl - 2017.09.06 at 16h 22m 32s.xml">
       <configuration name="Unittests in gf_sszt_ssgl" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_gf_sszt_ssgl - 2017.09.06 at 15h 27m 16s.xml">
+    <history-entry file="Unittests_in_gf_sszt_ssgl - 2017.09.06 at 16h 27m 23s.xml">
       <configuration name="Unittests in gf_sszt_ssgl" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_teee - 2017.09.06 at 16h 04m 39s.xml">
+      <configuration name="Unittests in teee" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_teee - 2017.09.06 at 16h 04m 46s.xml">
+      <configuration name="Unittests in teee" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_teee - 2017.09.06 at 16h 05m 28s.xml">
+      <configuration name="Unittests in teee" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_teee - 2017.09.06 at 16h 41m 40s.xml">
+      <configuration name="Unittests in teee" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -906,7 +944,8 @@
     <MESSAGE value="试试恢复后再提交" />
     <MESSAGE value="reject后解决冲突再提交" />
     <MESSAGE value="添加了oracle对比mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了oracle对比mysql" />
+    <MESSAGE value="修改了删除某一定向元素的方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了删除某一定向元素的方法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -922,7 +961,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/table_test/public/tt/__init__.py" />
     <entry file="file://$PROJECT_DIR$/table_test/public/tt/rr/ss.py" />
     <entry file="file://$PROJECT_DIR$/table_test/old/light_test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1155,14 +1193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/table_test/public/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/table_test/public/jidianxian.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1181,22 +1211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/table_test/public/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/table_test/public/get_col.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/table_test/public/get_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -1208,14 +1222,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/table_test/public/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table_test/public/get_col.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table_test/mytest/teee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/gf_sszt_ssgl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="648">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
           <folding>
-            <marker date="1504678886250" expanded="true" signature="1203:1327" ph="SELECT a.PRE... GF_SPPS_NWP_DEAL" />
-            <marker date="1504678886250" expanded="true" signature="1386:1508" ph="SELECT a.PRE... GF_SPPS_NWP_DEAL" />
+            <marker date="1504686532304" expanded="true" signature="1241:1367" ph="SELECT a.PRE... GF_SPPS_NWP_DEAL" />
+            <marker date="1504686532304" expanded="true" signature="1827:1982" ph="SELECT a.COL... SPPS_FZYI_MON_HIS" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table_test/public/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
