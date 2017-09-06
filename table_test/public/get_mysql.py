@@ -44,7 +44,7 @@ def get_mysql_h(host,sql,n=2): #查询mysql数据库,传数据库地址，sql查
         print("行组成列表",listx)
     else:
         print("查询结果为空")
-        listx=col
+        listx=[]
     cur.close()
     conn.close()
     return listx
@@ -148,9 +148,10 @@ def get_mysql_one(host,sql,n):
 # get_mysql_h('192.168.60.35','SELECT ctime,speed ,direction FROM rpps_data_calstation ORDER BY ctime asc limit 2',2)
 # get_mysql_l('192.168.60.35','SELECT ctime,speed ,direction FROM rpps_data_calstation ORDER BY ctime asc limit 2',2)
 # get_mysql_one('192.168.60.35','SELECT ctime FROM rpps_data_calstation ORDER BY ctime asc limit 2',2)
-sqldate="\"2017-08-04\""
-sql_old="SELECT a.PRE_DATE,a.PRE_TIME,a.ARI_TEM,a.WIND_SPEED,a.HUMIDITY,a.PRESSURE,a.TOTAL_IRRAD,a.DIRECT_IRRAD,a.DIFFUSE_IRRAD,a.GROUP_ID \
-FROM GF_SPPS_NWP_DEAL a WHERE a.PRE_DATE=sqldate ORDER BY a.PRE_TIME"
+if __name__ == '__main__':
 
-sql=sql_old.replace("sqldate",sqldate)
-get_mysql_h('192.168.60.167',sql)
+    sqldate="\"2017-08-04\""
+    sql_old="SELECT a.PRE_DATE,a.PRE_TIME,a.ARI_TEM,a.WIND_SPEED,a.HUMIDITY,a.PRESSURE,a.TOTAL_IRRAD,a.DIRECT_IRRAD,a.DIFFUSE_IRRAD,a.GROUP_ID \
+    FROM GF_SPPS_NWP_DEAL a WHERE a.PRE_DATE=sqldate ORDER BY a.PRE_TIME"
+    sql=sql_old.replace("sqldate",sqldate)
+    get_mysql_h('192.168.60.167',sql)

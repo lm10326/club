@@ -137,10 +137,3 @@ else:
         except:
             pass
 
-
-# list_x=[]
-# list_t=[[22.232300000000002], [22.135]]
-# for i in list_t:
-#     for k in i:
-#         list_x.append(k)
-# print(list_x)

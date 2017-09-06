@@ -7,8 +7,9 @@ from club.table_test.public.start import start,choose
 from club.table_test.public.menu import menu
 from club.table_test.public.set_date import set_date
 from club.table_test.public.get_heng import get_heng
-from club.table_test.public.get_col import get_col,deltup
+from club.table_test.public.get_col import get_col,del_list_tup
 from club.table_test.public.get_oracle import get_oracle_h
+from club.table_test.public.get_mysql import get_mysql_h
 class MyTestCase(unittest.TestCase):
     def setUp(self):
         self.driver = choose('firefox')
@@ -24,12 +25,14 @@ class MyTestCase(unittest.TestCase):
         time.sleep(2)
         hang='/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr'
         self.list_heng=get_heng(driver,hang).copy() #获取表格数据
-        list_wen=get_col(self.list_heng,3).copy() #将表格数据生成列表
-        list_sql=get_oracle_h('192.168.60.36',"SELECT a.PRE_DATE,a.PRE_TIME,a.ARI_TEM \
+        list_wen1=get_col(self.list_heng,3).copy() #将表格数据生成列表
+        list_wen=del_list_tup(list_wen1,' ')
+        # list_sql=get_oracle_h('192.168.60.36',"SELECT a.PRE_DATE,a.PRE_TIME,a.ARI_TEM \
+        # FROM GF_SPPS_NWP_DEAL a WHERE PRE_DATE='2017-08-08' ORDER BY PRE_TIME asc", 2)#查询数据库
+        list_sql=get_mysql_h('192.168.60.167',"SELECT a.PRE_DATE,a.PRE_TIME,a.ARI_TEM \
         FROM GF_SPPS_NWP_DEAL a WHERE PRE_DATE='2017-08-08' ORDER BY PRE_TIME asc", 2)#查询数据库
-        print(list_wen)
-        print(list_sql)
-        list_wen.pop()
+        print('表格数据为:',list_wen)
+        print('sql查询值为',list_sql)
         self.assertEqual(list_wen,list_sql)
     def tearDown(self):
         self.driver.close()

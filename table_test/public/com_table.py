@@ -13,9 +13,6 @@ click_list=['功率曲线展示','历史曲线']
 # click_list=['功率曲线展示','预测曲线','短期预测曲线']
 for i in click_list:
     driver.find_element_by_link_text(i).click()
-    # time.sleep(1)
-# driver.find_element_by_link_text('功率曲线展示').click()
-# driver.find_element_by_link_text('上报曲线').click()
 driver.find_element_by_id('beginDate').click()
 js = "$('input[id=beginDate]').attr('readonly','')"  
 driver.execute_script(js)
