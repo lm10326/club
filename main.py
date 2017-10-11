@@ -7,7 +7,7 @@ testcasedir='testcase' #测试用例目录名
 def creatsuitel():
     testunit=unittest.TestSuite()
     #discover 方法定义
-    discover=unittest.defaultTestLoader.discover(testcasedir,pattern ='bak_*.py',top_level_dir=None)
+    discover=unittest.defaultTestLoader.discover(testcasedir,pattern ='or_gf_*.py',top_level_dir=None)
     #discover 方法筛选出来的用例，循环添加到测试套件中
     for test_suite in discover:
         for test_case in test_suite:

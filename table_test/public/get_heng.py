@@ -15,7 +15,7 @@ def get_heng(driver,hang): #生成横向列表
             # print(driver.find_element_by_xpath(m).text)
             try:
                 list_henchu.append(float(driver.find_element_by_xpath(m).text))
-            except:
+            except :
                 list_henchu.append(driver.find_element_by_xpath(m).text)
     # print("list横向初始值是：", list_henchu)
     list_qie = [0]

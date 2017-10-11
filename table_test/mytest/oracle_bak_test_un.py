@@ -1,6 +1,4 @@
 import unittest
-
-
 class MyTestCase(unittest.TestCase):
     def test_table(self):
         # coding=utf-8

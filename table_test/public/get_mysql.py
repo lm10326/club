@@ -2,20 +2,18 @@
 import pymysql
 import datetime
 def get_mysql_h(host,sql,n=2): #查询mysql数据库,传数据库地址，sql查询，保留小数位数
-#     host=get_excelvale(host1,host2)
-#     conn = pymysql.connect(host=host,port=3306,user='rpps',passwd='rpps',db='rpps',charset='utf8')
     conn = pymysql.connect(host=host,port=3306,user='root',passwd='root123456',db='imsbase',charset='utf8')
     cur = conn.cursor()
     cur.execute(sql)  #设置查询参数
     col=cur.execute(sql) #获取总行数
     list_c=list(cur.fetchall())
-    print("初始查询值",list_c)
+    # print("sql初始查询值",list_c)
 #     list_mc=[('0:23:22', 12.345, 3.232),(datetime.datetime(2017, 6, 13, 0, 4), 12.345, 3.232), (datetime.datetime(2017, 6, 13, 14, 4), 3.232, 4.3532),(datetime.datetime(2017, 6, 13, 14, 4), 4.262, 22.987), (datetime.datetime(2017, 6, 13, 14, 5), 0.0, 0.0)]
     listx=[]  #元组组成的列表变成列表组成的列表，并保留n位小数
     if col!=0:
         for i in list_c:
             listx.append(list(i))
-        print("转成列表组成的列表",listx)
+        # print("sql转成列表组成的列表",listx)
         for i in listx:
             for k in i:
                 try:
