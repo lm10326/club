@@ -20,27 +20,26 @@ class MyTestCase(unittest.TestCase):
         click_list = ['实时状态监控', '实时功率曲线'] #点击菜单
         menu(driver,click_list)
         if now_time()[0]!=1:
-            time.sleep(130)
             print("waiting 130")
+            time.sleep(130)
+        driver.find_element_by_id('search').click() #搜索
+        time.sleep(2)
+        hang='/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr'
+        global list_heng
+        today=now_date()
+        list_heng=get_heng(driver,hang) #获取表格数据
+        list_dq_yuan=get_col_two(list_heng,2).copy() #将表格数据生成列表
+        list_dq=del_list_tup(list_dq_yuan,' ')
+        if list_dq==[]:
+            print("列表查询数据为空，无法比较")
         else:
-            driver.find_element_by_id('search').click() #搜索
-            time.sleep(2)
-            hang='/html/body/div/div[2]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr'
-            global list_heng
-            today=now_date()
-            list_heng=get_heng(driver,hang) #获取表格数据
-            list_dq_yuan=get_col_two(list_heng,2).copy() #将表格数据生成列表
-            list_dq=del_list_tup(list_dq_yuan,' ')
-            if list_dq==[]:
-                print("列表查询数据为空，无法比较")
-            else:
-                sql_kk="SELECT PRE_TIME,PRE_POWER FROM gf_spps_predict_nwp_deal WHERE PRE_DATE='now_date()' ORDER BY PRE_TIME"
-                sql=sql_kk.replace("now_date()",now_date())
-                list_sql=get_oracle_h('192.168.60.21',sql, 2)#查询数据库
-                print('短期表格数据为:',list_dq)
-                print('短期sql数据为',list_sql)
-                print('\n')
-                self.assertEqual(list_dq,list_sql)
+            sql_kk="SELECT PRE_TIME,PRE_POWER FROM gf_spps_predict_nwp_deal WHERE PRE_DATE='now_date()' ORDER BY PRE_TIME"
+            sql=sql_kk.replace("now_date()",now_date())
+            list_sql=get_oracle_h(sql, 2)#查询数据库
+            print('短期表格数据为:',list_dq)
+            print('短期sql数据为',list_sql)
+            print('\n')
+            self.assertEqual(list_dq,list_sql)
     def test_2_cdq(self):
         '''实时状态监控 > 实时功率曲线 > 超短期'''
         list_cdq_yuan=get_col_two(list_heng,3)
@@ -50,7 +49,7 @@ class MyTestCase(unittest.TestCase):
         else:
             sql_kk="SELECT PRE_TIME,PRE_POWER FROM SPPS_PREDICT_CDQ_DEAL WHERE PRE_DATE='now_date()' ORDER BY PRE_TIME"
             sql = sql_kk.replace("now_date()", now_date())
-            list_cdq_sql=get_oracle_h('192.168.60.21',sql,2)
+            list_cdq_sql=get_oracle_h(sql,2)
             print('超短期表格数据为:',list_cdq)
             print('超短期sql数据为',list_cdq_sql)
             print('\n')
@@ -64,7 +63,7 @@ class MyTestCase(unittest.TestCase):
         else:
             sql_kk = "SELECT GATHER_TIME,POWER_VALUE FROM gf_spps_power_his WHERE GATHER_DATE='now_date()' ORDER BY GATHER_TIME"
             sql = sql_kk.replace("now_date()", now_date())
-            list_zyg_sql = get_oracle_h('192.168.60.21', sql, 2)
+            list_zyg_sql = get_oracle_h(sql, 2)
             print('总有功表格数据为:', list_zyg)
             print('总有功sql数据为', list_zyg_sql)
             print('\n')
