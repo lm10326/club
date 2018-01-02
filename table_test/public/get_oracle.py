@@ -144,7 +144,8 @@ def get_oracle_l(host,sql,n): #查询oracle数据库多列，返回由列表组�
     cursor.close()
     return list_z
 if __name__ == '__main__':
-    get_oracle_l('192.168.60.36', "select GET_DATE,GET_TIME,ARI_TEM,TOTAL_IRRAD FROM GF_SPPS_NWP_DEAL where rownum<=2", 2)
-    get_oracle_h('192.168.60.36', "select GET_DATE,GET_TIME,ARI_TEM,TOTAL_IRRAD FROM GF_SPPS_NWP_DEAL where rownum<=2", 2)
+    get_oracle_h("select GET_DATE,GET_TIME,ARI_TEM,TOTAL_IRRAD FROM GF_SPPS_NWP_DEAL where rownum<=2", 2)
+    # get_oracle_l("select GET_DATE,GET_TIME,ARI_TEM,TOTAL_IRRAD FROM GF_SPPS_NWP_DEAL where rownum<=2", 2)
+
 # get_oracle_one('192.168.60.36', "select GET_DATE FROM GF_SPPS_NWP_DEAL where rownum<=2", 2)
 # print(operator.eq(m,m))

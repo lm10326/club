@@ -17,7 +17,7 @@ def get_mysql_h(host,sql,n=2): #查询mysql数据库,传数据库地址，sql查
         for i in listx:
             for k in i:
                 try:
-                    i[i.index(k)]=round(float(k),n)
+                    i[i.index(k)]=round(float(k+0.000001),n)
                 except:
                     pass
     #     print(listx)

@@ -160,7 +160,7 @@ and mod(to_char(to_date(a.foca_time,'HH24:mi:ss'),'mi'),15)=0 ORDER BY a.FOCA_DA
 WHERE a.FOCA_DATE in('yes_date()','now_date()') and mod(to_char(to_date(a.foca_time,'HH24:mi:ss'),'mi'),15)=0 ORDER BY a.FOCA_DATE,a.FOCA_TIME asc"
             sql = sql_kk.replace("now_date()", now_date())
             sql = sql.replace("yes_date()", yes_date())
-            list_qg_sql = get_oracle_h(sql, 3)
+            list_qg_sql = get_oracle_h(sql, 2)
             print('弃光功率表格数据为:', list_qg)
             print('弃光功率sql数据为', list_qg_sql)
             print('\n')

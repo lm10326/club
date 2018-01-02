@@ -15,18 +15,13 @@ def set_date(driver,datebegin='2017-09-06',dateafter='2017-09-06'): #设置开�
     driver.find_element_by_id('endDate').clear()
     driver.find_element_by_id('endDate').send_keys(dateafter)  #输入查询结束时间
 
-def set_date_tom(driver,datebegin='2017-09-06',dateafter='2017-09-06'): #设置开始时间和结束时间，查询区间
+def set_date_one(driver,datebegin='2017-09-06'): #设置开始时间和结束时间，查询区间
     driver.find_element_by_id('beginDate').click()
     js = "$('input[id=beginDate]').removeAttr('readonly')"
     driver.execute_script(js)
     driver.find_element_by_id('beginDate').clear()
     driver.find_element_by_id('beginDate').send_keys(datebegin)  #输入查询开始时间
     # time.sleep(2)
-    driver.find_element_by_id('endDate').click()
-    js = "$('input[id=endDate]').removeAttr('readonly')"
-    driver.execute_script(js)
-    driver.find_element_by_id('endDate').clear()
-    driver.find_element_by_id('endDate').send_keys(dateafter)  #输入查询结束时间
 
 def now_date(): #获取当前日期
     now = time.strftime("%Y-%m-%d", time.localtime(time.time()))
@@ -41,6 +36,11 @@ def yes_date():#获取昨天时间
     today = datetime.date.today()
     yesterday = today - datetime.timedelta(days=1)
     return str(yesterday)
+def hou_date():#获取后天时间
+    today = datetime.date.today()
+    aftom = today + datetime.timedelta(days=2)
+    return str(aftom)
+
 
 def now_time(): #获取当前时间
    now = time.strftime("%M",time.localtime(time.time()))
@@ -56,6 +56,7 @@ if __name__ == '__main__':
     print(now_date())
     print(now_time())
     print(tom_date())
+    print(hou_date())
 
 
 
